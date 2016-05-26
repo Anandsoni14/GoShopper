@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Go Shopper</string>
+    <string name="action_settings">Settings</string>
+    <string name="place">Place</string>
+    <string name="productName"> Nike Blue Shoe </string>
+    <string name="dist">2.5 Kms</string>
+    <string name="store">Pantaloons</string>
+    <string name="price">Rs. 999</string>
+    <string name="search_product">Search By Product</string>
+    <string name="search_near">Search Near Me</string>
+    <string name="search_shop">Search By Shop</string>
+    <string name="maxRange">Rs.1,000</string>
+</resources>

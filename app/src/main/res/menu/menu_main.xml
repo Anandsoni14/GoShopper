@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.co.goshopper.android.MainActivity" >
+    <item android:id="@+id/search_near"
+        android:title="@string/search_near"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/location" />
+    <item android:id="@+id/search_product"
+        android:title="@string/search_product"
+        android:onClick="searchProduct"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/shopping" />
+    <item android:id="@+id/search_shop"
+        android:title="@string/search_shop"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/settings"
+        app:showAsAction="never" />
+</menu>
